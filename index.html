@@ -1,167 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Bootstrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-    <!-- CSS External -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- ini icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
 
-    <!-- Tab Title -->
-    <link rel="shorcut icon" href="img/its.png" />
-    <title>Ramsy Al Farras - Portfolio</title>
+    <!-- ini css kita sendiri -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Hello, world!</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow pe-5 ps-5">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/its.png" alt="" width="32" height="32" class="d-inline-block align-text-top" />
-          Ramsy Al Farras
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#hero">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+    <!-- bagian awal navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Faros Al Baroq</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- /Navbar -->
+      </nav>
+    <!-- bagian akhir navbar -->
 
-    <!-- Hero -->
-    <section id="hero" class="hero section dark-background">
-      <div class="jumbotron text-center text-light mb-4">
-        <img src="img/Head.jpg" alt="Ramsy Al Farras" width="160" class="rounded-circle" />
-        <h1 class="font-weight-bold pt-3">Ramsy Al Farras</h1>
-        <p class="lead mb-4">UI/UX Designer | Graphic Designer</p>
-        <a class="btn btn-dark btn-md mb-5" href="https://drive.google.com/uc?export=download&id=1AGGNTfx-NaHRo5mKs5sK7f3lT_0LAmIo" role="button">Curriculum Vitae</a>
-      </div>
+    <!-- bagian awal home section -->
+     <section>
+        <div class="container-fluid text-center color-special">
+            <!-- Content here -->
+            <i class="bi bi-person-circle" style="font-size: 8rem; color: cornflowerblue;"></i>
+            <h1>Faros Al Baroq</h1>
+            <h4>A Data Analyst</h4>
+          </div>
+     </section>
+    <!-- bagian akhir home section -->
+
+    <!-- bagian awal about section -->
+    <section>
+        <div class="container">
+            <!-- Content here -->
+            <div class="row text-center">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <p>Saya adalah mahasiswa Statistika Bisnis Fakultas Vokasi ITS angkatan 2024 </p>
+                </div>
+                <div class="col-4">
+                    <p>Saya bernama Faros Al Baroq lahir di Mojokerto 20 April 2006</p>
+                </div>
+            </div>
+          </div>
     </section>
-    <!-- /Hero -->
+    <!-- bagian akhir about section -->
 
-    <!-- About Me -->
-    <section id="about">
-      <div class="contain pt-4 mb-5">
+    <!-- bagian awal gallery section -->
+    <section>
+      <div class="container-fluid color-special">
         <div class="row text-center">
           <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row text-center justify-content-center pt-3 pb-5">
-          <div class="col-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus nisi unde pariatur, dolorem perspiciatis modi minima aperiam ut fugit.</p>
-          </div>
-          <div class="col-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla nam possimus.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /About Me -->
-
-    <!-- Portfolio -->
-    <section id="portfolio">
-      <div class="container text-light pt-4">
-        <div class="row text-center">
-          <div class="col">
-            <h2>Portfolio</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center p-3">
-          <div class="col-sm-4 text-dark pb-4">
-            <div class="card">
-              <img src="img/p1.jpg" class="card-img-top" alt="Portfolio_1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 text-dark pb-4">
-            <div class="card">
-              <img src="img/p1.jpg" class="card-img-top" alt="Portfolio_1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 text-dark pb-4">
-            <div class="card">
-              <img src="img/p1.jpg" class="card-img-top" alt="Portfolio_1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Portfolio -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col">
-            <h2>Contact</h2>
+            <h2>My Gallery</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col">
+            <div class="card">
+              <img src="assets/1.jpeg" class="card-img-top" alt="..." style="height: 18rem;">
+              <div class="card-body">
+                <p class="card-text">Lukisan saya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/2.jpeg" class="card-img-top" alt="..." style="height: 18rem;">
+              <div class="card-body">
+                <p class="card-text">Keahlian saya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/3.jpg" class="card-img-top" alt="..."style="height: 18rem;">
+              <div class="card-body">
+                <p class="card-text">Hobi saya</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+     <!-- bagian akhir gallery section -->
+
+    <!-- bagian awal contact section -->
+    <section>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Ultraman (me)</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-7">
             <form>
               <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <label for="exampleInputEmail1" class="form-label">Nama Anda</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Email Anda</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <label for="exampleFormControlTextarea1" class="form-label">Pesan Anda</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Message</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-dark btn-md">Submit</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </section>
-    <!-- /Contact -->
+    <!-- bagian akhir contact section -->
 
-    <!-- Footer -->
-    <footer id="footer" class="footer accent-background">
-      <div class="container">
-        <div class="copyright text-center text-light fs-6">
-          <p><span>Copyright</span> © <span>2025</span> <strong>-</strong> <span>Ramsy Al Farras</span></p>
-          <div class="social-links d-flex justify-content-center pb-2">
-            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram text-light m-1 fs-5"></i></a>
-            <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube text-light m-1 fs-5"></i></a>
-            <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp text-light m-1 fs-5"></i></a>
-          </div>
-        </div>
+    <!-- bagian awal footer -->
+     <footer>
+      <div class="container-fluid text-center bg-dark text-light p-2">
+        <p>created with <i class="bi bi-heart-half"></i> by Faros Al Baroq</p>
       </div>
-    </footer>
-    <!-- /Footer -->
+     </footer>
+    <!-- bagian akhir footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
